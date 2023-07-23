@@ -18,15 +18,23 @@ class UserSeeder extends Seeder
             [
                 [
                     'name' => fake()->userName(),
-                    'score' => fake()->numberBetween(1, 10),
+                    'score' => fake()->numberBetween(1, 4),
                 ],
                 [
                     'name' => fake()->userName(),
-                    'score' => fake()->numberBetween(1, 10),
+                    'score' => fake()->numberBetween(1, 4),
                 ],
                 [
                     'name' => fake()->userName(),
-                    'score' => fake()->numberBetween(1, 10),
+                    'score' => fake()->numberBetween(1, 4),
+                ],
+                [
+                    'name' => fake()->userName(),
+                    'score' => fake()->numberBetween(1, 4),
+                ],
+                [
+                    'name' => fake()->userName(),
+                    'score' => fake()->numberBetween(1, 4),
                 ],
             ];
         foreach ($records as $record) {
